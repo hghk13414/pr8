@@ -1,0 +1,170 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(217, 54%, 11%);
+    } 
+    /* المربع الخارجي*/
+    div{
+        position: relative;
+        width:270px;
+        height:450px;
+        background-color: hsl(216, 50%, 16%);
+        border-radius:10px;
+    }
+    /* الصورة الكبيرة*/
+   #pp{margin-left:20px;
+border:1px solid  hsl(216, 50%, 16%);
+    border-radius:20px;
+    }
+    /* العين بنص الشفافية الزرقا*/
+    #view{
+        visibility: hidden;
+        width: 40px;
+        z-index: 7;
+        position: absolute;
+        top: 100px;
+        left: 110px;
+    }
+    /*الشفافية الزرقا*/
+    #hh{
+        visibility: hidden;
+     opacity: 0.3;
+        position: absolute;
+        top:19px;
+        left: 0px;
+        width:220px ;
+        height: 200px;
+        margin-left:20px;
+        border:1px solid hsl(178, 100%, 50%) ;
+        border-radius:20px;
+background-color: hsl(178, 100%, 50%);
+
+    }
+   /*كلام كبير ابيض*/
+    #o{margin-left:20px;
+        z-index:6;
+    font-size:25px;
+    color:white;
+    background-color:hsl(216, 50%, 16%) ;
+    border: solid 1px hsl(216, 50%, 16%) ;
+    }
+    /*كلام صغير رمادي*/
+    j{
+        
+font-size:14px;
+    color: hsl(215, 51%, 70%);
+    margin-left:20px;
+    }
+    /*ُETH*/
+    #ii{
+    font-size:14px;
+    color:hsl(178, 100%, 50%);
+margin-left:40px;
+    border-bottom:1px solid  hsl(216, 50%, 16%);
+  
+}
+/*3 days left*/
+    #zz{
+    font-size:14px;
+    color:hwb(215 55% 15%);
+    margin-left:88px;
+    }
+    /*الخط الرمادي يلي بالنص*/
+    e{
+        position: absolute;
+        width:220px;
+        height:1px;
+        background-color:hsl(215, 32%, 27%);
+        left:30px;
+        top:375px;
+    }
+    /*صورة الافاتار الصغيرة*/
+    #fr{
+        
+    margin-left:20px;
+    }
+    /*الكتابة بالرمادي تحت*/
+    #uu{
+    font-size:15px;
+    color:hsl(215, 51%, 70%);
+    
+    }
+     /*الكتابة بالابيص تحت*/
+    v{
+    font-size:15px;
+    color:white;
+    margin-left:5px;
+    }
+    /*السطر لاخير*/
+    h{
+        
+        position: absolute;
+        left:77px;
+        top:405px;
+    
+    }
+  /*شعار ETH*/
+    #ETH{position: absolute;
+        margin-left: -37.5px;
+        margin-top: -54.5px;
+    }
+    /*شعار الساعة*/
+    #cl{
+       position: absolute;
+        margin-left: 111px;
+        margin-top: -54px;
+    }
+    @media only screen and (max-width:500px)
+    {
+        div{
+border-radius: 25px;
+         width:310px;
+         height: 650px;
+        
+        }
+        #hh{
+            left:-12px;
+            width: 290px;
+            top:7px;
+height:360px;
+        }
+        #view{
+            top: 168px;
+            left: 135px;
+        }
+        /*كل العناصر يلي تحت الصورة الكبيرة و فوق صورة الافاتار*/
+        al{
+            position: absolute;
+            margin-top: 10px;
+        }
+        #pp{
+            border-radius: 18px;
+width: 290px;
+height:360px;
+margin-left:9px ;
+ margin-top: -12px;       }
+
+e{width:272px;
+    top: 540px;
+    left: 20px;
+}
+#fr{position: absolute;
+    top:565px;
+}
+h{
+    top:575px;
+}
+#ETH{
+    margin-top:107px;
+    margin-left: 22px;
+    }
+    #cl{
+    margin-top: 107.5px;
+margin-left: 163px;    
+}
+
+#zz{
+    margin-left: 85px;
+}
+    }
